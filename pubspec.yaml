@@ -1,0 +1,42 @@
+name: toplanti_takip
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # DATABASE
+  supabase_flutter: ^1.10.14
+
+  # UI
+  flutter_slidable: ^3.0.0
+  table_calendar: ^3.0.9
+
+  # UTILS
+  url_launcher: ^6.1.12
+ 
+
+  # FIREBASE
+  firebase_core: ^2.15.1
+ 
+  # STATE MANAGEMENT
+  flutter_riverpod: ^2.3.10
+  get_it: ^7.6.4
+
+  # ROUTE
+  go_router: ^10.1.1
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
